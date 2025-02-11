@@ -258,3 +258,26 @@ button:active {
 .acknowledge-button:hover {
   background-color: #218838;
 }
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  width: auto;
+  padding: 8px 16px;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
